@@ -4,10 +4,6 @@ window.$ = window.jQuery = require('jquery');
 import './QueryBuilder.css'
 import Switch from 'react-input-switch';
 
-
-
-//export default BookList;
-
 /**
  * ExampleComponent is an example component.
  * It takes a property, `label`, and
@@ -57,11 +53,11 @@ export default class QueryBuilder extends Component {
                     </option>
                     {this.state.Parameterarray.map(biodata => (
                       <option
-                        value={biodata.name}
+                        value={biodata.value}
                         data={biodata}
-                        key={biodata.id}
+                        key={biodata.label}
                       >
-                        {biodata.name}
+                        {biodata.value}
                       </option>
                     ))}
                 </select>
@@ -79,9 +75,9 @@ export default class QueryBuilder extends Component {
                     </option>
                     {this.state.conditionArray.map(socidata => (
                       <option
-                        value={socidata.name}
+                        value={socidata.symbol}
                         data={socidata}
-                        key={socidata.id}
+                        key={socidata.name}
                       >
                         {socidata.name}
                       </option>

@@ -2,7 +2,7 @@
 name = "QueryBuilder"
 uuid = "1b08a953-4be3-4667-9a23-0109bcc44e11"
 authors = ["kalimuthu periyasamy <1995kalimuthu@gmail.com>"]
-version = "0.0.1"
+version = "0.0.4"
 
 [deps]
 Dash = "1b08a953-4be3-4667-9a23-3db579824955"

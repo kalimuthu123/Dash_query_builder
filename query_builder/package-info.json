@@ -1,6 +1,6 @@
 {
   "name": "query_builder",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "the query builder ui component",
   "main": "build/index.js",
   "scripts": {
