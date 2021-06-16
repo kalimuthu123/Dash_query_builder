@@ -1,0 +1,39 @@
+.condition-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.condition-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding-left: .5em;
+    padding-right: .5em;
+}
+
+.condition-remove{
+	
+}
+
+select {
+  padding: 3px 12px;
+  outline: none;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+select::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+.value_input{
+	
+  padding: 3px 12px;
+  outline: none;
+  width: 200px;
+  margin-bottom: 20px;
+}
