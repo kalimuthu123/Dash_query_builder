@@ -1,8 +1,8 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
-''ToggleSwitch <- function(id=NULL, checked=NULL, disabled=NULL, name=NULL, onChange=NULL, optionLabels=NULL, small=NULL) {
+''ToggleSwitch <- function(id=NULL, checked=NULL, onChange=NULL, name=NULL, optionLabels=NULL, small=NULL, disabled=NULL) {
     
-    props <- list(id=id, checked=checked, disabled=disabled, name=name, onChange=onChange, optionLabels=optionLabels, small=small)
+    props <- list(id=id, checked=checked, onChange=onChange, name=name, optionLabels=optionLabels, small=small, disabled=disabled)
     if (length(props) > 0) {
         props <- props[!vapply(props, is.null, logical(1))]
     }
@@ -10,7 +10,7 @@
         props = props,
         type = 'ToggleSwitch',
         namespace = 'query_builder',
-        propNames = c('id', 'checked', 'disabled', 'name', 'onChange', 'optionLabels', 'small'),
+        propNames = c('id', 'checked', 'onChange', 'name', 'optionLabels', 'small', 'disabled'),
         package = 'queryBuilder'
         )
 

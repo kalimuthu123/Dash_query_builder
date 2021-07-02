@@ -5,7 +5,7 @@ import './QueryBuilder.css'
 import Switch from 'react-input-switch';
 
 /**
- * ExampleComponent is an example component.
+ * QueryBuilder is an QueryBuilder component.
  * It takes a property, `label`, and
  * displays it.
  * It renders an input with the property `value`
@@ -51,7 +51,7 @@ export default class QueryBuilder extends Component {
                     <option value=" " >
                       Select your option
                     </option>
-                    {this.state.Parameterarray.map(biodata => (
+                    {this.props.Parameterarray.map(biodata => (
                       <option
                         value={biodata.value}
                         data={biodata}
@@ -73,7 +73,7 @@ export default class QueryBuilder extends Component {
                     <option value=" " >
                       Select your option
                     </option>
-                    {this.state.conditionArray.map(socidata => (
+                    {this.props.conditionArray.map(socidata => (
                       <option
                         value={socidata.symbol}
                         data={socidata}

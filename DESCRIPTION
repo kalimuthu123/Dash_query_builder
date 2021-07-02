@@ -1,6 +1,6 @@
 Package: queryBuilder
 Title: the query builder ui component
-Version: 0.0.4
+Version: 0.0.5
 Description: the query builder ui component
 Depends: R (>= 3.0.2)
 Imports: 

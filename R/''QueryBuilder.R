@@ -1,8 +1,8 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
-''QueryBuilder <- function(id=NULL, Parameterarray=NULL, columns=NULL, conditionArray=NULL, label=NULL, value=NULL) {
+''QueryBuilder <- function(id=NULL, label=NULL, value=NULL, columns=NULL, Parameterarray=NULL, conditionArray=NULL) {
     
-    props <- list(id=id, Parameterarray=Parameterarray, columns=columns, conditionArray=conditionArray, label=label, value=value)
+    props <- list(id=id, label=label, value=value, columns=columns, Parameterarray=Parameterarray, conditionArray=conditionArray)
     if (length(props) > 0) {
         props <- props[!vapply(props, is.null, logical(1))]
     }
@@ -10,7 +10,7 @@
         props = props,
         type = 'QueryBuilder',
         namespace = 'query_builder',
-        propNames = c('id', 'Parameterarray', 'columns', 'conditionArray', 'label', 'value'),
+        propNames = c('id', 'label', 'value', 'columns', 'Parameterarray', 'conditionArray'),
         package = 'queryBuilder'
         )
 

@@ -10,8 +10,8 @@
 }
 
 \usage{
-''ToggleSwitch(id=NULL, checked=NULL, disabled=NULL, name=NULL,
-onChange=NULL, optionLabels=NULL, small=NULL)
+''ToggleSwitch(id=NULL, checked=NULL, onChange=NULL, name=NULL,
+optionLabels=NULL, small=NULL, disabled=NULL)
 }
 
 \arguments{
@@ -19,15 +19,15 @@ onChange=NULL, optionLabels=NULL, small=NULL)
 
 \item{checked}{Logical. }
 
-\item{disabled}{Logical. }
+\item{onChange}{}
 
 \item{name}{Character. }
-
-\item{onChange}{}
 
 \item{optionLabels}{Unnamed list. }
 
 \item{small}{Logical. }
+
+\item{disabled}{Logical. }
 }
 
 \value{named list of JSON elements corresponding to React.js properties and their values}
